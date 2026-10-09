@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    margin: 20px;
+    padding: 10px;
+}
+h2{
+    margin: 0;
+}
+a{
+    color: rgb(188, 189, 190);
+    text-decoration: none;
+}
+.links{
+    justify-content: space-around;
+    display: flex;
+    margin: 0 5px;
+    gap: 20px;
+}
+#profile{
+    color: aliceblue;
+}
+button{
+    color: rgb(226, 230, 235);
+    background-color: rgb(14, 119, 119);
+    background-color: 2px solid black;
+    padding: 5px;
+    box-shadow: 2px 2px black ;
+}
